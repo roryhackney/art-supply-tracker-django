@@ -4,12 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Testing{% endblock %}</title>
+    <link href="{% block css_file %}{% endblock %}" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+            {% if user.is_authenticated %}
+                <li><a href="">Art Supplies</a></li>
+                <h1>Art Supply Tracker</h1>
+                <li><a href="">Wishlist</a></li>
+            {% else %}
+                <li><a href="">Sign Up</a></li>
+                <h1>Art Supply Tracker</h1>
+                <li><a href="">Log In</a></li>
+            {% endif %}
+            </ul>
+        </nav>
+    </header>
     <main>
         {% block content %}
         {% endblock %}
     </main>
-    
+    <footer>
+        <p>Developed by <a href="https://roryhackney.com" rel="author external noreferrer">Rory Hackney</a></p>
+    </footer>
 </body>
 </html>

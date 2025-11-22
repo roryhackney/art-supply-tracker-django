@@ -1,8 +1,10 @@
-<!-- templates/registration/login.html -->
 {% extends "base.html" %}
+{% load static %}
+<!-- templates/registration/login.html -->
 {% block title %}Log In{% endblock %}
 {% block content %}
 <h2>Log In</h2>
+<img src="{% static 'meme.jpg' %}" alt="meme">
 <form method="post">
     {% csrf_token %}
     {{ form }}

@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    flex-direction: row;
+
+    h1 {
+        font-family: "Story Script", "Script MT", "cursive";
+    }
+    
+    nav li {
+        padding: 15px;
+        border: 5px solid black;
+    }
+}
