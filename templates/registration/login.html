@@ -4,11 +4,11 @@
 {% block title %}Log In{% endblock %}
 {% block content %}
 <h2>Log In</h2>
-<img src="{% static 'meme.jpg' %}" alt="meme">
 <form method="post">
     {% csrf_token %}
     {{ form }}
-    <button type="submit">Log In</button>
+    <button type="submit" id="submit">Log In</button>
 </form>
 <p><a href="{% url 'password_reset' %}">Forgot Password?</a></p>
+<script src="{% static 'scripts/login-handler.js' %}"></script>
 {% endblock %}

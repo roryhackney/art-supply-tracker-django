@@ -1,0 +1,18 @@
+:root {
+    --theme: "pink";
+    --white: #ffffff;
+    --black: #000000;
+    --off-white: #FFF5F8;
+    --off-black: #72003B;
+    --light: #FFB4CF;
+    --medium: #ED6194;
+    --dark: #DB0F5A;
+
+    --heading-font: "Story Script", "Script MT", "cursive";
+    --body-font: "Patrick Hand", "Arial", "sans-serif";
+    --text-small: 0.875rem; /*14px on base 16px*/
+    --text-normal: 1rem; /*16px on base 16px*/
+    --text-large: 1.25rem; /*20px on base 16px*/
+    --heading-normal: 1.5rem; /*24px on base 16px*/
+    --heading-large: 2rem; /*32px on base 16px */
+}
