@@ -1,8 +1,8 @@
 {
-  "reactcode/index.js": {
-    "file": "scripts/index-bundle.js",
+  "assets/javascript/index.js": {
+    "file": "javascript/index-bundle.js",
     "name": "index",
-    "src": "reactcode/index.js",
+    "src": "assets/javascript/index.js",
     "isEntry": true
   }
 }
