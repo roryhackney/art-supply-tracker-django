@@ -1,4 +1,10 @@
 {
+  "assets/javascript/hello.jsx": {
+    "file": "javascript/hello-bundle.js",
+    "name": "hello",
+    "src": "assets/javascript/hello.jsx",
+    "isEntry": true
+  },
   "assets/javascript/index.js": {
     "file": "javascript/index-bundle.js",
     "name": "index",
