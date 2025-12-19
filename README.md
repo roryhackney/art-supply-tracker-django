@@ -8,13 +8,34 @@ Currently, this project manages data with SQLite. If, after deployment, this get
 
 ## In Progress
 * Authentication
+- Log In
+    Look for: brute force
+    2FA?
+- Log Out
+- Reset PW
+- Sign Up
+    PW must:
+        10ch
+        Upper, lower, number
+        Not similar
+        Warn for weak password?
+        Password generator option?
+- Account Page (basic)
 * Refactoring HTML into React Components for long term maintainability
 * Refactoring CSS into modules to prevent conflicts through scoping
 * Additional site styling
 
 ## To Do
+* Demo page
 * Wishlist feature
+- Share with others
 * CRUD for user art supplies
 * Search/filter/view existing art supplies
 * Categories / database structure for supplies
 * User account management
+- Delete data
+- Deactivate account
+- Change email
+- Change display name
+- Change profile pic (select options)
+- Upload profile pic
